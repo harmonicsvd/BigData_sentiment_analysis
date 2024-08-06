@@ -1,0 +1,170 @@
+2024-07-08 00:27:46,526 [INFO] Starting Flower server...
+2024-07-08 00:27:46,527 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 00:27:46,553 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 00:27:46,557 [INFO] [INIT]
+2024-07-08 00:27:46,557 [INFO] Requesting initial parameters from one random client
+2024-07-08 09:39:11,787 [INFO] Starting Flower server...
+2024-07-08 09:39:11,788 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 09:39:11,813 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 09:39:11,814 [INFO] [INIT]
+2024-07-08 09:39:11,814 [INFO] Requesting initial parameters from one random client
+2024-07-08 09:52:46,533 [INFO] Starting Flower server...
+2024-07-08 09:52:46,538 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 09:52:46,602 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 09:52:46,615 [INFO] [INIT]
+2024-07-08 09:52:46,615 [INFO] Requesting initial parameters from one random client
+2024-07-08 10:04:33,374 [INFO] Starting Flower server...
+2024-07-08 10:04:33,375 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 10:04:33,396 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 10:04:33,396 [INFO] [INIT]
+2024-07-08 10:04:33,429 [INFO] Requesting initial parameters from one random client
+2024-07-08 10:08:44,427 [INFO] Starting Flower server...
+2024-07-08 10:08:44,428 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 10:08:44,446 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 10:08:44,446 [INFO] [INIT]
+2024-07-08 10:08:44,477 [INFO] Requesting initial parameters from one random client
+2024-07-08 10:24:05,639 [INFO] Starting Flower server...
+2024-07-08 10:24:05,640 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 10:24:05,669 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 10:24:05,670 [INFO] [INIT]
+2024-07-08 10:24:05,670 [INFO] Requesting initial parameters from one random client
+2024-07-08 10:33:08,775 [INFO] Starting Flower server...
+2024-07-08 10:33:08,775 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 10:33:08,799 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 10:33:08,799 [INFO] [INIT]
+2024-07-08 10:33:08,823 [INFO] Requesting initial parameters from one random client
+2024-07-08 10:37:26,690 [INFO] Starting Flower server...
+2024-07-08 10:37:26,693 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 10:37:26,731 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 10:37:26,733 [INFO] [INIT]
+2024-07-08 10:37:26,734 [INFO] Requesting initial parameters from one random client
+2024-07-08 10:52:50,933 [INFO] Starting Flower server...
+2024-07-08 10:52:50,933 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 10:52:50,983 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 10:52:50,984 [INFO] [INIT]
+2024-07-08 10:52:50,984 [INFO] Requesting initial parameters from one random client
+2024-07-08 13:57:42,725 [INFO] Starting Flower server...
+2024-07-08 13:57:42,726 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 13:57:42,762 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 13:57:42,763 [INFO] [INIT]
+2024-07-08 13:57:42,789 [INFO] Requesting initial parameters from one random client
+2024-07-08 14:23:40,610 [INFO] Starting Flower server...
+2024-07-08 14:23:40,611 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 14:23:40,628 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 14:23:40,629 [INFO] [INIT]
+2024-07-08 14:23:40,651 [INFO] Requesting initial parameters from one random client
+2024-07-08 15:34:56,322 [INFO] Starting Flower server...
+2024-07-08 15:34:56,323 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 15:34:56,352 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 15:34:56,353 [INFO] [INIT]
+2024-07-08 15:34:56,353 [INFO] Requesting initial parameters from one random client
+2024-07-08 15:38:20,869 [INFO] Starting Flower server...
+2024-07-08 15:38:20,872 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 15:38:20,996 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 15:38:20,997 [INFO] [INIT]
+2024-07-08 15:38:20,997 [INFO] Requesting initial parameters from one random client
+2024-07-08 16:18:28,259 [INFO] Starting Flower server...
+2024-07-08 16:18:28,260 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 16:18:28,289 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 16:18:28,289 [INFO] [INIT]
+2024-07-08 16:18:28,289 [INFO] Requesting initial parameters from one random client
+2024-07-08 17:25:43,652 [INFO] Starting Flower server...
+2024-07-08 17:25:43,653 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 17:25:43,672 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 17:25:43,672 [INFO] [INIT]
+2024-07-08 17:25:43,672 [INFO] Requesting initial parameters from one random client
+2024-07-08 17:29:36,895 [INFO] Starting Flower server...
+2024-07-08 17:29:36,896 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 17:29:36,983 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 17:29:37,011 [INFO] [INIT]
+2024-07-08 17:29:37,012 [INFO] Requesting initial parameters from one random client
+2024-07-08 17:45:46,302 [INFO] Starting Flower server...
+2024-07-08 17:45:46,310 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 17:45:46,392 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 17:45:46,393 [INFO] [INIT]
+2024-07-08 17:45:46,393 [INFO] Requesting initial parameters from one random client
+2024-07-08 18:44:57,837 [INFO] Starting Flower server...
+2024-07-08 18:44:57,838 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 18:44:57,867 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 18:44:57,867 [INFO] [INIT]
+2024-07-08 18:44:57,890 [INFO] Requesting initial parameters from one random client
+2024-07-08 19:36:16,137 [INFO] Starting Flower server...
+2024-07-08 19:36:16,137 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 19:36:16,189 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 19:36:16,192 [INFO] [INIT]
+2024-07-08 19:36:16,192 [INFO] Requesting initial parameters from one random client
+2024-07-08 22:27:23,007 [INFO] Starting Flower server...
+2024-07-08 22:27:23,008 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 22:27:23,053 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 22:27:23,054 [INFO] [INIT]
+2024-07-08 22:27:23,054 [INFO] Requesting initial parameters from one random client
+2024-07-08 22:37:03,340 [INFO] Starting Flower server...
+2024-07-08 22:37:03,341 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 22:37:03,374 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 22:37:03,374 [INFO] [INIT]
+2024-07-08 22:37:03,379 [INFO] Requesting initial parameters from one random client
+2024-07-08 23:22:50,989 [INFO] Starting Flower server...
+2024-07-08 23:22:50,995 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-08 23:22:51,035 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-08 23:22:51,036 [INFO] [INIT]
+2024-07-08 23:22:51,036 [INFO] Requesting initial parameters from one random client
+2024-07-09 06:58:39,505 [INFO] Starting Flower server...
+2024-07-09 06:58:39,505 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 06:58:39,532 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 06:58:39,560 [INFO] [INIT]
+2024-07-09 06:58:39,560 [INFO] Requesting initial parameters from one random client
+2024-07-09 07:35:11,346 [INFO] Starting Flower server...
+2024-07-09 07:35:11,347 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 07:35:11,378 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 07:35:11,379 [INFO] [INIT]
+2024-07-09 07:35:11,379 [INFO] Requesting initial parameters from one random client
+2024-07-09 07:44:44,331 [INFO] Starting Flower server...
+2024-07-09 07:44:44,333 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 07:44:44,357 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 07:44:44,357 [INFO] [INIT]
+2024-07-09 07:44:44,386 [INFO] Requesting initial parameters from one random client
+2024-07-09 09:03:08,518 [INFO] Starting Flower server...
+2024-07-09 09:03:08,518 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 09:03:08,539 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 09:03:08,539 [INFO] [INIT]
+2024-07-09 09:03:08,540 [INFO] Requesting initial parameters from one random client
+2024-07-09 10:11:10,863 [INFO] Starting Flower server...
+2024-07-09 10:11:10,865 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 10:11:10,882 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 10:11:10,882 [INFO] [INIT]
+2024-07-09 10:11:10,882 [INFO] Requesting initial parameters from one random client
+2024-07-09 10:42:23,874 [INFO] Starting Flower server...
+2024-07-09 10:42:23,875 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 10:42:23,901 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 10:42:23,922 [INFO] [INIT]
+2024-07-09 10:42:23,923 [INFO] Requesting initial parameters from one random client
+2024-07-09 11:58:38,900 [INFO] Starting Flower server...
+2024-07-09 11:58:38,901 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 11:58:38,925 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 11:58:38,925 [INFO] [INIT]
+2024-07-09 11:58:38,950 [INFO] Requesting initial parameters from one random client
+2024-07-09 13:52:53,847 [INFO] Starting Flower server...
+2024-07-09 13:52:53,849 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 13:52:53,876 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 13:52:53,876 [INFO] [INIT]
+2024-07-09 13:52:53,880 [INFO] Requesting initial parameters from one random client
+2024-07-09 14:39:28,217 [INFO] Starting Flower server...
+2024-07-09 14:39:28,219 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 14:39:28,267 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 14:39:28,269 [INFO] [INIT]
+2024-07-09 14:39:28,269 [INFO] Requesting initial parameters from one random client
+2024-07-09 15:00:36,654 [INFO] Starting Flower server...
+2024-07-09 15:00:36,656 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 15:00:36,679 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 15:00:36,679 [INFO] [INIT]
+2024-07-09 15:00:36,712 [INFO] Requesting initial parameters from one random client
+2024-07-09 15:52:46,317 [INFO] Starting Flower server...
+2024-07-09 15:52:46,318 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 15:52:46,344 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 15:52:46,348 [INFO] [INIT]
+2024-07-09 15:52:46,348 [INFO] Requesting initial parameters from one random client
+2024-07-09 17:28:42,354 [INFO] Starting Flower server...
+2024-07-09 17:28:42,357 [INFO] Starting Flower server, config: num_rounds=3, no round_timeout
+2024-07-09 17:28:42,409 [INFO] Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-07-09 17:28:42,411 [INFO] [INIT]
+2024-07-09 17:28:42,411 [INFO] Requesting initial parameters from one random client

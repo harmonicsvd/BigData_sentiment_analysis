@@ -1,0 +1,104 @@
+### Get the $50 credits from the link mentioned in the projekt file
+
+### Gcloud instance
+## Open terminal on google cloud
+## Change first 3 lines accordingly:
+# 1. Change --project from your URL
+# 2. Change --service-account from: Top Right 3 Dots -> Project Settings -> Service Accounts
+# 3. Change device-name key to "ubuntu-yourname" in --ceate-disk line
+
+gcloud compute instances create ubuntu-heavy-devarshi \
+    --project=strong-matrix-422110 \
+    --service-account=738032921164-compute@developer.gserviceaccount.com \
+    --create-disk=auto-delete=yes,boot=yes,device-name=ubuntu-heavy-devarshi,image=projects/ubuntu-os-cloud/global/images/ubuntu-minimal-2404-noble-amd64-v20240625,mode=rw,size=128,type=projects/strong-matrix-422110/zones/europe-west3-c/diskTypes/pd-ssd \
+    --zone=europe-west3-c \
+    --machine-type=c2-standard-8 \
+    --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
+    --no-restart-on-failure \
+    --maintenance-policy=TERMINATE \
+    --instance-termination-action=STOP \
+    --provisioning-model=SPOT \
+    --scopes=https://www.googleapis.com/auth/cloud-platform \
+    --enable-display-device \
+    --tags=http-server,https-server,lb-health-check \
+    --no-shielded-secure-boot \
+    --shielded-vtpm \
+    --shielded-integrity-monitoring \
+    --labels=goog-ec-src=vm_add-gcloud \
+    --reservation-affinity=any
+
+gcloud compute ssh --zone "europe-west3-c" "root@ubuntu-heavy-devarshi" --project "strong-matrix-422110"
+or
+ssh -i <path to private key> <username for ubuntu>@<ip of vm from gcloud>
+
+
+### Get training_data.json from Gcloud storage, put it inside clonned code
+gcloud storage cp gs://reddit_a3/training_data.json training_data.json
+
+
+
+########################  ONETIME ONLY  ########################
+### install gcloud cli on LOCAL machine
+## mac: https://cloud.google.com/sdk/docs/install#mac
+## windows: https://cloud.google.com/sdk/docs/install#windows
+## linux:
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install apt-transport-https ca-certificates gnupg curl -y
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+sudo apt update -y && sudo apt install google-cloud-cli -y
+gcloud init
+
+gcloud compute ssh --zone "europe-west3-c" "root@ubuntu-heavy-<>" --project "<>"
+
+
+
+### setup docker on VM (user)
+sudo apt update -y && sudo apt upgrade -y
+
+sudo reboot
+# Stop and Start the VM instance again
+
+sudo apt install docker.io docker-buildx jq htop iputils-ping -y
+
+# login with non-root user
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+#docker login
+
+
+
+### setup ssh key to clone on VM (user)
+ssh-keygen -t ed25519 -C "key on gcloud"
+# cat .pub key
+# add on Gitlab git@collaborating.tuhh.de:e-19/teaching/bd24_project_a3_a.git
+git clone git@collaborating.tuhh.de:e-19/teaching/bd24_project_a3_a.git
+cd bd24_project_a3_a
+bash build.sh --no-cache
+
+
+
+### gcloud GUI setup
+## https://ubuntu.com/blog/launch-ubuntu-22-04-desktop-on-google-cloud
+# on VM
+wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+sudo apt install --assume-yes ./chrome-remote-desktop_current_amd64.deb
+sudo apt update && sudo apt upgrade -y
+sudo apt install slim ubuntu-desktop -y
+
+sudo reboot
+
+sudo service slim start
+
+# on Edge/Chrome
+https://remotedesktop.google.com/headless
+new remote
+Copy the command for Debian Linux into VM terminal, and enter 6 digit pin
+
+
+
+### install VSCode (root)
+https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+sudo dpkg -i <.deb>  # run when VM is logged in as root

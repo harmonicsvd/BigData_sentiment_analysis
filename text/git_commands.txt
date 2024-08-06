@@ -1,0 +1,17 @@
+cd /bd24_project_a3_a
+git checkout -B devarshi
+git status
+git add .
+git status
+git commit -m '<put message>'
+git push --set-upstream origin devarshi
+
+
+# merge from GUI or:
+git checkout -B main
+git status
+git add .
+git status
+git commit -m '<>'
+git push --set-upstream origin main
+
